@@ -1,5 +1,5 @@
 import { MessageCircle, Mail, Phone } from "lucide-react";
-const agentImage = new URL("../../assets/1775163755717.png", import.meta.url).href;
+const agentImage = new URL("../../assets/IMG-20260403-WA0019.jpg", import.meta.url).href;
 export function ContactSection() {
   const handleWhatsAppClick = () => {
     // Número de WhatsApp de ejemplo - cambiar por el número real
@@ -22,11 +22,11 @@ export function ContactSection() {
           <div className="grid md:grid-cols-5 gap-0">
             {/* Agent Image */}
             <div className="md:col-span-2 bg-gradient-to-br from-blue-100 to-blue-50 flex items-center justify-center p-8">
-              <div className="relative">
+              <div className="">
                 <img
                   src={agentImage}
                   alt="Gestora de vuelos"
-                  className="w-48 h-48 md:w-64 md:h-64 rounded-full object-cover border-4 border-white shadow-lg"
+                  className="w-50 h-65 rounded-full md:w-60 md:h-75 object-cover border-4 border-white shadow-lg"
                 />
               </div>
             </div>
@@ -37,7 +37,7 @@ export function ContactSection() {
                 Hola, soy Damaris Brizuela
               </h3>
               <p className="text-blue-600 font-semibold mb-6">
-                Tu especialista en vuelos a Surinam y Guyana
+                Tu agente de venta de vuelos a Surinam y Guyana
               </p>
               <p className="text-gray-600 mb-8">
                 Con más de 5 años de experiencia ayudando a cubanos a llegar a su destino, te garantizo un servicio honesto y profesional. Te acompaño en todo el proceso para que tu viaje sea un éxito desde el primer paso. ¡Estoy lista para ayudarte con todas tus dudas y gestionar tu boleto con total seguridad!

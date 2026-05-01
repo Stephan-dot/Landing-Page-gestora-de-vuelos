@@ -17,7 +17,7 @@ export function HeroSection() {
           {/* Text Content */}
           <div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
-              Vuelos Seguros y Confiables a Surinam y Guyana
+              Vuelos Seguros y Confiables a Paramaribo y Georgetown
             </h1>
             <p className="text-lg md:text-xl text-gray-600 mb-8">
               Gestiona tu boleto con mayor seguridad y transparencia. Atención personalizada para que tu viaje sea un éxito desde el primer momento.

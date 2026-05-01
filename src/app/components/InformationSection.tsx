@@ -1,5 +1,5 @@
 import { Clock, FileText, Plane, Luggage } from "lucide-react";
-
+const Image = new URL("../../assets/copilot_image_1777662119727.jpeg", import.meta.url).href;
 export function InformationSection() {
   const infoItems = [
     {
@@ -31,7 +31,7 @@ export function InformationSection() {
           {/* Image */}
           <div className="order-2 lg:order-1">
             <img
-              src="https://images.unsplash.com/photo-1767739167302-0caf4f4a8986?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0cm9waWNhbCUyMFNvdXRoJTIwQW1lcmljYW4lMjBkZXN0aW5hdGlvbnxlbnwxfHx8fDE3NzM4NjU4OTd8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+              src={Image}
               alt="Destino tropical"
               className="rounded-2xl shadow-xl w-full h-auto"
             />

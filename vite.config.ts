@@ -7,7 +7,7 @@ import react from '@vitejs/plugin-react'
 const __dirname = dirname(fileURLToPath(import.meta.url))
 
 export default defineConfig({
-  base: '/',
+  base: '/Landing-Page-gestora-de-vuelos/',
   plugins: [
     // The React and Tailwind plugins are both required for Make, even if
     // Tailwind is not being actively used – do not remove them

@@ -1,10 +1,11 @@
 import { MapPin, Building2, Users, Palmtree } from "lucide-react";
-
+const paramarigboImage = new URL("../../assets/istockphoto-1927599210-612x612.jpg", import.meta.url).href;
+const georgetownImage = new URL("../../assets/georgetown.png", import.meta.url).href;
 export function DestinationsSection() {
   const destinations = [
     {
       name: "Paramaribo, Surinam",
-      image: "https://images.unsplash.com/photo-1643295048057-407be1b37114?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxQYXJhbWFyaWJvJTIwU3VyaW5hbSUyMGNpdHlzY2FwZXxlbnwxfHx8fDE3NzM4NjU4OTN8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: paramarigboImage,
       description: "Capital de Surinam, conocida por su arquitectura colonial holandesa, diversidad cultural y el casco histórico declarado Patrimonio de la Humanidad por la UNESCO.",
       highlights: [
         "Centro histórico UNESCO",
@@ -15,7 +16,7 @@ export function DestinationsSection() {
     },
     {
       name: "Georgetown, Guyana",
-      image: "https://images.unsplash.com/photo-1570299437488-d430e1e677c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxDYXJpYmJlYW4lMjBjb2xvbmlhbCUyMGJ1aWxkaW5nc3xlbnwxfHx8fDE3NzM4NjU4OTR8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: georgetownImage,
       description: "Capital de Guyana, famosa por sus edificios de madera coloniales, el mercado Stabroek, jardines botánicos y su vibrante mezcla de culturas caribeñas y sudamericanas.",
       highlights: [
         "Mercado Stabroek",
