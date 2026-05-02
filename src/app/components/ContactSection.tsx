@@ -37,7 +37,7 @@ export function ContactSection() {
                 Hola, soy Damaris Brizuela
               </h3>
               <p className="text-blue-600 font-semibold mb-6">
-                Tu agente de venta de vuelos a Surinam y Guyana
+                Tu agente de venta de vuelos a Suriname y Guyana
               </p>
               <p className="text-gray-600 mb-8">
                 Con más de 5 años de experiencia ayudando a cubanos a llegar a su destino, te garantizo un servicio honesto y profesional. Te acompaño en todo el proceso para que tu viaje sea un éxito desde el primer paso. ¡Estoy lista para ayudarte con todas tus dudas y gestionar tu boleto con total seguridad!
