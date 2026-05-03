@@ -71,7 +71,7 @@ export function Footer() {
             <ul className="space-y-2 text-sm text-gray-400">
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4" />
-                <span>damaris@vuelossurinam.com</span>
+                <span>damarisbrizuelaflyallways@gmail.com</span>
               </li>
               <li>+5352390740</li>
             </ul>
