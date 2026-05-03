@@ -51,7 +51,11 @@ export function ContactSection() {
                 </div>
                 <div className="flex items-center gap-3 text-gray-700">
                   <Mail className="w-5 h-5 text-blue-600" />
-                  <span>damaris@vuelossurinam.com</span>
+                  <span>damarisbrizuelaflyallways@gmail.com</span>
+                </div>
+                <div className="flex items-center gap-3 text-gray-700">
+                  <Mail className="w-5 h-5 text-blue-600" />
+                  <span>damarisflyallways@gmail.com</span>
                 </div>
               </div>
 
