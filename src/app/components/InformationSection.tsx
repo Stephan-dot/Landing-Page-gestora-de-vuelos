@@ -16,7 +16,7 @@ export function InformationSection() {
       id: 2,
       icon: FileText,
       title: "Política de Equipaje",
-      description: "Equipaje de mano: 10 kg máximo. Equipaje documentado: hasta 23 kg según la aerolínea. Te asesoramos detalladamente con los requisitos de cada aerolínea para evitar inconvenientes.",
+      description: "Equipaje de mano permitido hasta 10 kg, equipaje facturado hasta 23 kg, dependiendo de la aerolínea. Te brindamos asesoría personalizada sobre los requisitos específicos de cada aerolínea para evitar cualquier inconveniente.",
     },
     {
       id: 3,
